@@ -1,0 +1,23 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(3, 37, 45);
+    color: aliceblue;
+    text-align: justify;
+}
+
+h1,h2 {
+    padding-top: 0;
+    color: rgb(203, 255, 163);
+}
+
+body {
+    margin: auto;
+    width: 640px;
+    padding: 10px 50px;
+
+}
+
+img {
+    width: 300px;
+    padding-left: 30%;
+}
