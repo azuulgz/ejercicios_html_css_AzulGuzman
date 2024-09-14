@@ -1,5 +1,5 @@
 * {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: "Montserrat", sans-serif;
     background-color: rgb(3, 37, 45);
     color: aliceblue;
     text-align: justify;
@@ -8,16 +8,34 @@
 h1,h2 {
     padding-top: 0;
     color: rgb(203, 255, 163);
+    text-align: center;
+    font-size: 45px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
 }
 
 body {
     margin: auto;
     width: 640px;
     padding: 10px 50px;
+    font-size: 18px;
 
 }
 
 img {
     width: 300px;
-    padding-left: 30%;
+    border: 5px solid #8dd5e9;
+    border-radius: 10% 40%;
 }
+
+ol>li>a:hover {
+    color: rgb(154, 253, 79);
+}
+
+a {
+    text-decoration: none;
+}
+
