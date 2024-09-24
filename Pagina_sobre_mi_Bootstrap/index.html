@@ -33,26 +33,96 @@
         </div>
     </section>
     <figure>
-        <h2>Mis artistas favoritos</h2> <!-- CARRUSEL --> 
-        
+
+
+        <h2>Mis artistas favoritos del momento</h2> <!-- CARRUSEL --> 
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="radiohead.jpg" class="fotito de Radiohead" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="olivia-rodrigo.jpg" class="fotito de Olivia Rodrigo" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="billie-eilish.jpg" class="fotito de Taylor" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
 
     </figure>
 
     <section>
         <h2>Mi top 5    canciones!</h2> <!-- AFREFAR LIST GROUP -->
         <p>Me gusta mucho la    música, Este es mi top     5 canciones del mes!</  p>
+            <div class="list-group">
+                <a 
+                    href="https://www.youtube.com/watch? v=jsptjaAef7Q" class="list-group-item list-group-item-action" aria-current="true">LUNCH - Billie Eilish
+                </a>
+                <a 
+                    href="https://www.youtube.com/watch? v=g7IqAUBEGnE" class="list-group-item list-group-item-action">Girls against God -   Florence + The Machine
+                </a>
+                <a 
+                    href="https://www.youtube.com/watch? v=ZVgHPSyEIqk" class="list-group-item list-group-item-action">Let Down - Radiohead
+                </a>
+                <a 
+                    href="https://www.youtube.com/watch? v=jRqhGC5vgC0" class="list-group-item list-group-item-action">White Flag - Dido
+                </a>
+                <a 
+                    href="https://www.   youtube.com/watch? v=4Ff2p-hBtwo" class="list-group-item list-group-item-action">Bye Bye Bye - NSYNC
+                </a>
+            </div>
             <div><img src="snoopy.jpg" alt="Foto mía"></div>
-        <ol>
-            <li><a  href="https://www.   youtube.com/watch? v=jsptjaAef7Q">LUNCH - Billie Eilish</   a></li>
-            <li><a  href="https://www.   youtube.com/watch? v=g7IqAUBEGnE">Girl  s against God -   Florence + The    Machine</a></li>
-            <li><a  href="https://www.   youtube.com/watch? v=ZVgHPSyEIqk">Let   Down - Radiohead</    a></li>
-            <li><a  href="https://www.   youtube.com/watch? v=jRqhGC5vgC0">Whit  e Flag - Dido</a></   li>
-            <li><a  href="https://www.   youtube.com/watch? v=4Ff2p-hBtwo">Bye   Bye Bye - NSYNC</ a></li>
-        </ol>
+
     </section>
     
     <section> <!-- SE AGREGARA UN DROP DOWN CON FUN FACTS MIOS -->
 
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Accordion Item #1
+                </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Accordion Item #2
+                </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Accordion Item #3
+                </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+            </div>
+            </div>
 
     </section>
 
