@@ -5,28 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acerca de mi</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <header> <!-- AGREGAR AQUI DOS COLUMNAS, UNA LA FOTO Y OTRA LA DESCRIPCION -->
-        <h1>Azul!</h1>
-        <p>Mi nombre es Azul, tengo 23 años, y me considero una chica creativa y curiosa. Soy de Aguascalientes aunque también he vivido en Guadalajara, mi comida favorita es la birria, tengo dos hermanos y yo soy la de en medio. Adoro escuchar música y me gustaría algún día aprender a tocar el bajo.</p>
-        <div><img src="imagen_mia.jpg" alt="Foto mía"></div>
-        <h2>Lo que mas me gusta!</h2>
-        <ul>
-            <li>Escuchar música</li>
-            <li>Salir con mis amigos</li>
-            <li>Leer</li>
-            <li>Ver anime/series/películas</li>
-            <li>Recientemente comencé con el Crossfit</li>
-        </ul>
-    </header>
-
+<section>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-6 col-sm-3"><div><img src="imagen_mia.jpg" alt="Foto de Azul en Lake Louise"></div>
+        </div>
+        <div class="col-6 col-sm-3">
+            <p>Mi nombre es Azul, tengo 23 años, y me considero una chica creativa y curiosa. Soy de Aguascalientes aunque también he vivido en Guadalajara, mi comida favorita es la birria, tengo dos hermanos y yo soy la de en medio. Adoro escuchar música y me gustaría algún día aprender a tocar el bajo.</p>
+        </div>
+            <!-- Force next columns to break to new line -->
+        <div class="w-100"></div>
+        <div class="col-6 col-sm-3"><ul>
+            <li class="hobbies-list-description">LO QUE MAS ME GUSTA HACER:</li>
+            <li class="hobbies-list-item">Escuchar música</li>
+            <li class="hobbies-list-item">Salir con mis amigos</li>
+            <li class="hobbies-list-item">Leer</li>
+            <li class="hobbies-list-item">Ver anime/series/películas</li>
+            <li class="hobbies-list-item">Recientemente comencé con el Crossfit</li>
+        </div>
+        <div class="col-6 col-sm-3"> 
+            <div>
+                <img src="foto-mia-2.jpg" alt="Foto de azul con cabellito rosa"></div></div>
+            </div>
+        </div>
+    </section>
     <figure>
-
-    <h2>Mis arttistas favoritos</h2> <!-- CARRUSEL --> 
+        <h2>Mis artistas favoritos</h2> <!-- CARRUSEL --> 
+        
 
     </figure>
 
@@ -48,5 +56,7 @@
 
     </section>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
