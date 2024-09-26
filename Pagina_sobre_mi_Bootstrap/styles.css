@@ -47,12 +47,16 @@ header{
 }
 
 .col-6 {
-    background-color: var(--background_color);
+    background-color: #ecceff;
     max-height: 450px;
     border: 3px solid var(--borders_color);
     font-size: 1em;
 }
+.col-6:hover{
+    background: rgb(212,218,250);
+    background: linear-gradient(90deg, rgba(212,218,250,1) 0%, rgba(254,207,217,1) 100%);
 
+}
 .column-image{
     width: 15em;
     height: 80%;
@@ -99,14 +103,20 @@ img{
 }
 
 .slide{
-    width: 60%;
+    width: 40%;
+    min-width: 400px;
     margin: auto;
 }
+
+.slide:hover, .accordion:hover, .list-group:hover  {
+    background: rgb(212,218,250);
+    background: linear-gradient(90deg, rgba(212,218,250,1) 0%, rgba(254,207,217,1) 100%);
+}
+
 .carousel-image{
     height: 400px;
     object-fit: cover;
-    padding: 0.5em;
-    
+    padding: 2em;
     border: 5px solid var(--borders_color);
     border-radius: 10px;
 }
@@ -132,21 +142,13 @@ img{
     margin: auto;
     padding: 0.5em;
     border: 5px solid var(--borders_color);
-    border-radius: 10px;
 }
 
 .list-group-item:hover{
-    color: var(--background_color);
+    color: var(--color_texto);
+    background-color: var(--background_color);
 }
 
-.dropdown-image{
-    width: 40%;
-    height: auto;
-    object-fit: contain;
-    margin: 1.3em auto;
-    border: 5px solid var(--borders_color);
-    border-radius: 10px;
-}
 
 /* AQUI EMPIEZAN LOS DATOS RANDOMS */
 
@@ -157,16 +159,23 @@ img{
 }
 
 .accordion{
-    width: 80%;
-    margin: 1em auto 8em auto;
+    width: 95%;
+    width: 40%;
+    margin: auto;
+    padding: 0.5em;
     border: 5px solid var(--borders_color);
-    border-radius: 10px;   
+    border-radius: 10px;
+    margin-bottom: 3.5em;
 }
 
 .accordion-item{
-    
     border: 5px solid var(--borders_color);
     border-radius: 10px; 
+    
+}
+.accordion-button:hover{
+    color: var(--color_texto);
+    background-color: var(--background_color);
 }
 
 
