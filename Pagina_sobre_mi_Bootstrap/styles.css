@@ -1,0 +1,172 @@
+*{
+    /* background: rgb(255,215,185);
+    background: linear-gradient(90deg, rgba(255,215,185,1) 0%, rgba(244,255,144,1) 58%);
+    */
+    border: none black;
+    font-family: "Roboto Mono", monospace;
+    color: var(--color_texto);
+}
+
+body {
+    /* background: rgb(255,215,185);
+    background: linear-gradient(90deg, rgba(255,215,185,1) 0%, rgba(244,255,144,1) 58%); */
+    
+    background: rgb(200,209,255);
+    background: radial-gradient(circle, rgba(200,209,255,1) 0%, rgba(255,215,223,1) 100%);
+    margin: auto;
+    border: solid 1em var(--background_color);
+}
+
+h1,h2 {
+    font-family: "Anton", sans-serif;
+    
+    font-weight: bolder;
+}
+
+
+:root {
+    --color_texto: rgb(7, 6, 58);
+    --background_color: #e6c7fa;
+    --pallete_blue: #4F67B1;
+    --pallete_brown: #511e0d;
+    --borders_color: rgb(34, 23, 77);
+
+}
+
+header{
+    padding-top: 3em;
+    margin: auto 1.8em;
+    text-align: center;
+}
+
+.header-description{
+    text-align: justify;
+    margin: 2em auto;
+    width: 80%;
+
+}
+
+.col-6 {
+    background-color: var(--background_color);
+    max-height: 450px;
+    border: 3px solid var(--borders_color);
+    font-size: 1em;
+}
+
+.column-image{
+    width: 15em;
+    height: 80%;
+    object-fit: contain;
+    margin: 0;
+    max-height: 500px;
+}
+
+.column-description, .column-list {
+    width: auto;
+    height: auto;
+    text-align: justify;
+    align-items: auto;
+    margin: 0;
+    padding: 1.5em;
+
+}
+
+#hobbies-list-description {
+    list-style-type: none;
+    margin: 1.5em 0;
+}
+
+ul{
+    margin: 0 50px;
+    padding: 30px px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+/* AQUI EMPIEZA EL CARRUSEL */
+
+.carousel-title, .carousel-description {
+    margin: 2em auto;
+    width: 80%;
+    text-align: justify;
+}
+
+.slide{
+    width: 60%;
+    margin: auto;
+}
+.carousel-image{
+    height: 400px;
+    object-fit: cover;
+    padding: 0.5em;
+    
+    border: 5px solid var(--borders_color);
+    border-radius: 10px;
+}
+
+/* AQUI EMPIEZA EL TOP 5 */
+
+.drowpdown-title, .dropdown-description {
+    margin: 2em auto;
+    width: 80%;
+    text-align: justify;
+}
+
+.list-group {
+    width: 60%;
+    margin: 1em auto;
+    padding: 0.5em;
+    border: 5px solid var(--borders_color);
+    border-radius: 10px;
+}
+
+.list-group-item {
+    width: 95%;
+    margin: auto;
+    padding: 0.5em;
+    border: 5px solid var(--borders_color);
+    border-radius: 10px;
+}
+
+.list-group-item:hover{
+    color: var(--background_color);
+}
+
+.dropdown-image{
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+    margin: 1.3em auto;
+    border: 5px solid var(--borders_color);
+    border-radius: 10px;
+}
+
+/* AQUI EMPIEZAN LOS DATOS RANDOMS */
+
+.acordion-title, .acordion-description {
+    margin: 2em auto;
+    width: 80%;
+    text-align: justify;
+}
+
+.accordion{
+    width: 80%;
+    margin: 1em auto 8em auto;
+    border: 5px solid var(--borders_color);
+    border-radius: 10px;   
+}
+
+.accordion-item{
+    
+    border: 5px solid var(--borders_color);
+    border-radius: 10px; 
+}
+
+

@@ -6,36 +6,45 @@
     <title>Acerca de mi</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+
 </head>
 <body>
-<section>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-6 col-sm-3"><div><img src="imagen_mia.jpg" alt="Foto de Azul en Lake Louise"></div>
-        </div>
-        <div class="col-6 col-sm-3">
-            <p>Mi nombre es Azul, tengo 23 años, y me considero una chica creativa y curiosa. Soy de Aguascalientes aunque también he vivido en Guadalajara, mi comida favorita es la birria, tengo dos hermanos y yo soy la de en medio. Adoro escuchar música y me gustaría algún día aprender a tocar el bajo.</p>
-        </div>
-            <!-- Force next columns to break to new line -->
-        <div class="w-100"></div>
-        <div class="col-6 col-sm-3"><ul>
-            <li class="hobbies-list-description">LO QUE MAS ME GUSTA HACER:</li>
-            <li class="hobbies-list-item">Escuchar música</li>
-            <li class="hobbies-list-item">Salir con mis amigos</li>
-            <li class="hobbies-list-item">Leer</li>
-            <li class="hobbies-list-item">Ver anime/series/películas</li>
-            <li class="hobbies-list-item">Recientemente comencé con el Crossfit</li>
-        </div>
-        <div class="col-6 col-sm-3"> 
-            <div>
-                <img src="foto-mia-2.jpg" alt="Foto de azul con cabellito rosa"></div></div>
+
+    <header>
+        <h1>Aprende un poco sobre mi: Mi nombre es Azul!</h1>
+        <p class="header-description">Hola a todas! Les doy la bienvenida a esta página web donde podrán conocerme un poco más. Espero que tengan un rato ameno leyendo y disfrutando del contenido de esta página.</p>
+    </header>
+
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-center align-items-center"><p class="column-description">Mi nombre es Azul, tengo 23 años, y me considero una chica creativa y curiosa. Soy de Aguascalientes aunque también he vivido en Guadalajara, mi comida favorita es la birria, tengo dos hermanos y yo soy la de en medio. Adoro escuchar música y me gustaría algún día aprender a tocar el bajo.</p></div>
+                    <div class="col-6 d-flex justify-content-center align-items-center imagen-lake"><img class="column-image" src="imagen_mia.jpg" alt="Foto de Azul en Lake Louise"></div>
+                </div>
+                <div class="row">
+                    <div class="col-6 d-flex justify-content-center align-items-center "><ul class="column-list">
+                        <li id="hobbies-list-description">LO QUE MAS ME GUSTA HACER:</li>
+                        <li class="hobbies-list-item">Escuchar música</li>
+                        <li class="hobbies-list-item">Salir con mis amigos</li>
+                        <li class="hobbies-list-item">Leer</li>
+                        <li class="hobbies-list-item">Ver anime/series/películas</li>
+                        <li class="hobbies-list-item">Recientemente comencé con el Crossfit</li>
+                    </ul></div>
+                    <div class="col-6 d-flex justify-content-center align-items-center imagen-lake"><img class="column-image" src="foto-mia-2.jpg " alt="Foto de azul con cabellito rosa"></div>
+                    
+                </div>
             </div>
-        </div>
-    </section>
-    <figure>
 
 
-        <h2>Mis artistas favoritos del momento</h2> <!-- CARRUSEL --> 
+
+        <h2 class="carousel-title">Mis artistas favoritos del momento</h2> <!-- CARRUSEL --> 
+        <p class="carousel-description">Mis artistas favoritos cambian cada 5 segundos, pero estos son los que más he reproducido en las últimas semanas!, espero que se queden en este top por bastante tiempo, si no estaré actualizando este sitio web 1 vez por semana.</p>
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -43,14 +52,14 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="radiohead.jpg" class="fotito de Radiohead" alt="...">
+                <div class="carousel-item active align-items-center">
+                <img class="carousel-image" src="billie-eilish.jpg" class="fotito-billie" alt="...">
                 </div>
-                <div class="carousel-item">
-                <img src="olivia-rodrigo.jpg" class="fotito de Olivia Rodrigo" alt="...">
+                <div class="carousel-item align-items-center">
+                <img class="carousel-image" src="olivia-rodrigo.jpg" class="fotito-olivia" alt="...">
                 </div>
-                <div class="carousel-item">
-                <img src="billie-eilish.jpg" class="fotito de Taylor" alt="...">
+                <div class="carousel-item align-items-center">
+                <img class="carousel-image" src="radiohead.jpg" class="fotito-radiohead" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -66,60 +75,62 @@
     </figure>
 
     <section>
-        <h2>Mi top 5    canciones!</h2> <!-- AFREFAR LIST GROUP -->
-        <p>Me gusta mucho la    música, Este es mi top     5 canciones del mes!</  p>
+        <h2 class="drowpdown-title">Mi top 5    canciones!</h2> <!-- AFREFAR LIST GROUP -->
+        <p class="dropdown-description" >Me gusta mucho la    música, Este es mi top     5 canciones del mes!</  p>
             <div class="list-group">
                 <a 
-                    href="https://www.youtube.com/watch? v=jsptjaAef7Q" class="list-group-item list-group-item-action" aria-current="true">LUNCH - Billie Eilish
+                    href="https://www.youtube.com/watch? v=jsptjaAef7Q" class="list-group-item" aria-current="true">LUNCH - Billie Eilish
                 </a>
                 <a 
-                    href="https://www.youtube.com/watch? v=g7IqAUBEGnE" class="list-group-item list-group-item-action">Girls against God -   Florence + The Machine
+                    href="https://www.youtube.com/watch? v=g7IqAUBEGnE" class="list-group-item">Girls against God -   Florence + The Machine
                 </a>
                 <a 
-                    href="https://www.youtube.com/watch? v=ZVgHPSyEIqk" class="list-group-item list-group-item-action">Let Down - Radiohead
+                    href="https://www.youtube.com/watch? v=ZVgHPSyEIqk" class="list-group-item">Let Down - Radiohead
                 </a>
                 <a 
-                    href="https://www.youtube.com/watch? v=jRqhGC5vgC0" class="list-group-item list-group-item-action">White Flag - Dido
+                    href="https://www.youtube.com/watch? v=jRqhGC5vgC0" class="list-group-item">White Flag - Dido
                 </a>
                 <a 
-                    href="https://www.   youtube.com/watch? v=4Ff2p-hBtwo" class="list-group-item list-group-item-action">Bye Bye Bye - NSYNC
+                    href="https://www.   youtube.com/watch? v=4Ff2p-hBtwo" class="list-group-item">Bye Bye Bye - NSYNC
                 </a>
             </div>
-            <div><img src="snoopy.jpg" alt="Foto mía"></div>
+            <div><img class="dropdown-image" src="snoopy.jpg" alt="Foto mía"></div>
 
     </section>
     
     <section> <!-- SE AGREGARA UN DROP DOWN CON FUN FACTS MIOS -->
 
+        <h2 class="acordion-title" >Datos Random sobre mi!</h2>
+        <p class="acordion-description">Aqui les dejo 3 datos random sobre mi para que me conozcan un poco más. </p>
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
-                <h2 class="accordion-header">
+                <h3 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    Accordion Item #1
+                    Dato Random #1
                 </button>
-                </h2>
+                </h3>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                <div class="accordion-body"> Tengo una cobijita que se llama "mimi" y lleva conmigo desde que nací literalmente, la llevo conmigo cada que duermo fuera de mi casa.</div>
                 </div>
             </div>
             <div class="accordion-item">
-                <h2 class="accordion-header">
+                <h3 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    Accordion Item #2
+                    Dato Random #2
                 </button>
-                </h2>
+                </h3>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                <div class="accordion-body">Me dió varicela hasta los 13 años, fue durante unas vacaciones en donde me quede con familia en La Paz, Baja California y no pude salir por indicaciones del doctor, solo saliamos en el auto en la noche a dar vueltas.</div>
                 </div>
             </div>
             <div class="accordion-item">
-                <h2 class="accordion-header">
+                <h3 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    Accordion Item #3
+                    Dato Random #3
                 </button>
-                </h2>
+                </h3>
                 <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                <div class="accordion-body">Aunque sea 2024 sigo esperando que One Direction vuelva, tal vez algún día lo hagan, y ojalá sea cuando tenga dinero.</div>
                 </div>
             </div>
             </div>
