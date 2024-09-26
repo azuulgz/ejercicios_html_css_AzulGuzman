@@ -1,16 +1,10 @@
 *{
-    /* background: rgb(255,215,185);
-    background: linear-gradient(90deg, rgba(255,215,185,1) 0%, rgba(244,255,144,1) 58%);
-    */
     border: none black;
     font-family: "Roboto Mono", monospace;
     color: var(--color_texto);
 }
 
-body {
-    /* background: rgb(255,215,185);
-    background: linear-gradient(90deg, rgba(255,215,185,1) 0%, rgba(244,255,144,1) 58%); */
-    
+body {    
     background: rgb(200,209,255);
     background: radial-gradient(circle, rgba(200,209,255,1) 0%, rgba(255,215,223,1) 100%);
     margin: auto;
@@ -22,7 +16,6 @@ h1,h2 {
     
     font-weight: bolder;
 }
-
 
 :root {
     --color_texto: rgb(7, 6, 58);
@@ -148,7 +141,6 @@ img{
     color: var(--color_texto);
     background-color: var(--background_color);
 }
-
 
 /* AQUI EMPIEZAN LOS DATOS RANDOMS */
 
